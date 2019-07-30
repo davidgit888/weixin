@@ -1,0 +1,48 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/image/image",
+    "pages/results/results",
+    "pages/search/search",
+    "pages/user/user"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#a0a0a0",
+    "selectedColor": "#ec5c30",
+    "backgroundColor": "#f2f2f2",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/tab_home_def.png",
+        "selectedIconPath": "images/tab_home_sel.png"
+      },
+      {
+        "pagePath": "pages/search/search",
+        "text": "防伪查询",
+        "iconPath": "images/tab_search_def.png",
+        "selectedIconPath": "images/tab_search_sel.png"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "text": "关于我们",
+        "iconPath": "images/tab_user_def.png",
+        "selectedIconPath": "images/tab_user_sel.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json",
+  "permission": {
+    "scope.userLocation": {
+      "desc": "您的地址信息将用于更好的为您服务且严格保密！"
+    }
+  }
+}

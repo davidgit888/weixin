@@ -1,0 +1,25 @@
+
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 100rpx;
+  margin-top: 60%;
+  margin-bottom: 20rpx;
+  
+}
+
+.userinfo-downname {
+  color: #aaa;
+}
+
+.result {
+  margin-top: 100px;  
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}

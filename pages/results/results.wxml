@@ -1,0 +1,8 @@
+<!--pages/results/results.wxml-->
+<view wx:if='{{results}}'>{{results}}
+</view>
+<view>尝试了{{number}}</view>
+
+
+
+

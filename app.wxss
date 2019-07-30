@@ -1,0 +1,19 @@
+/**app.wxss**/
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+/* page {
+	 background-color: #efefef; 
+} */
+.section {
+	background: #fff;
+	border-bottom: 1rpx solid #dedede;
+	margin-bottom: 15rpx;
+	padding: 20rpx;
+}
+
+

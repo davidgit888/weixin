@@ -1,0 +1,4 @@
+/* pages/image/image.wxss */
+.preview-tips {
+  margin: 20rpx 0;
+}

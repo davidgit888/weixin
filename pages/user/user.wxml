@@ -1,0 +1,31 @@
+<view class="container">
+
+	<scroll-view scroll-y="true">
+
+    <view class="section_top section-big ">
+	  	<swiper class="banner" indicator-dots="true" autoplay="true" interval="3000" duration="500" indicator-color='#dbdbdb' indicator-active-color='#f37024'>
+	  		<block wx:for="{{banners}}" wx:key="id">
+	  			<swiper-item>
+	  				<image bindtap="tapBanner" data-id="{{index}}" src="{{item.img}}"/>
+	  			</swiper-item>
+	  		</block>
+	  	</swiper>
+    </view>
+
+		<view class="section section-big aboutUs">
+			<view class="title">关于我们</view>
+			<image class="content_0"  src="/images/AUbg_3.jpg"/>
+      <image class="content_1"  src="/images/AUbg_4.jpg"/>
+      <view class="point"><text class="intro" decode="{{true}}">&ensp;&ensp;海胜威测防伪溯源整体解决方案</text></view>
+      <view class="intro_0"><text class="infor">海胜威测防伪溯源整体解决方案具有三重功能：防伪、溯源及防串货，采用图像传播的核心技术进行防伪操作，普通视觉下不可见，防伪预置安全性高。华为云提供服务器与安全保障,历经多年研发的防复制防伪技术一流。</text></view>
+    </view>
+
+		<view class="section section-big contactUs">
+			<view class="title">联系我们</view>
+			<image class="content"  src="/images/AUbg_0.jpg"/>
+      <view class="point"><text class="intro" decode="{{true}}">&ensp;&ensp;我们将竭诚为您服务</text></view>
+      <view class="intro_0"><text class="infor" decode="{{true}}">山东省青岛市高新区华东路826号\n0532-55678388</text></view>
+		</view>
+
+	</scroll-view>
+</view>

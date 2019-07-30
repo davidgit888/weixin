@@ -1,0 +1,64 @@
+<!--index.wxml-->
+<view class="container">
+
+  <view class="selection">
+    <swiper class="ui_swiper" indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" 
+            duration="{{duration}}" indicator-color='#dbdbdb' indicator-active-color='#f37024' >
+      <block wx:for="{{imgUrls}}" wx:key="imgUrlsID">
+        <swiper-item>
+          <image src="{{item}}" />
+        </swiper-item>
+      </block>
+    </swiper>
+  </view>  
+
+  <view class="selection">
+
+    <view class="header">
+      <text class="text_left">合作伙伴</text> 
+      <!-- <text class="text_right">全部</text> -->
+    </view>
+
+    <view class="content">
+      <view class="content_item" wx:for="{{contentItems}}" wx:key="1"  id="传参" >
+             <image src="../../images/logo_0.png" />
+             <view class="content_item_text"><text>塞北粮仓</text></view>
+      </view>
+      <view class="content_item" wx:for="{{contentItems}}" wx:key="2"  id="" >
+             <image src="../../images/logo_1.png" />
+             <view class="content_item_text"><text>安莱汽车研究院</text></view>
+      </view>
+      <view class="content_item" wx:for="{{contentItems}}" wx:key="3"  id="" >
+             <image src="../../images/logo_2.png" />
+             <view class="content_item_text"><text>零微科技</text></view>
+      </view>
+      <view class="content_item" wx:for="{{contentItems}}" wx:key="4"  id="" >
+             <image src="../../images/logo_7.png" />
+             <view class="content_item_text"><text>海洋丽姿</text></view>
+      </view>
+    </view>
+
+  </view>
+
+  <view class="selection">
+
+     <view class="header">
+        <text class="text_left">热门新闻</text>
+          <!-- <text class="text_right">全部新闻</text> -->
+     </view>
+
+     <view class="list_item" wx:for="{{listItems}}" wx:key="listItemsID">
+        <view class="list_item_images">
+          <image src="../../images/bg2.png" class="list_item_image"/>
+          <image src="../../images/bg1.png" class="avatar"/>
+        </view>
+        
+        <view class="list_item_text">
+          <view class="list_item_text_title"><text>新闻标题</text></view> 
+          <view class="list_item_text_content"><text>新闻内容新闻内容新闻内容新闻内容新闻内容新闻内容新闻内容新闻内容新闻内容新闻内容新闻内容新闻内容新闻内容新闻内容新闻内容新闻内容新闻内容</text></view>
+        </view>
+     </view>
+    
+  </view>
+
+</view>

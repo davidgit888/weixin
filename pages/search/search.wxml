@@ -1,0 +1,41 @@
+<view class="container">
+  <view  bindtap="" class="userinfo">
+    <image class="userinfo-avatar" type="primary" src="/images/xj.jpeg" bindtap="GotoPhoto"></image>
+    <text class="userinfo-downname">防伪查询</text>
+  </view>
+</view>
+
+<!--index.wxml-->
+<!-- <view class="container">
+  <view class="userinfo">
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+    <block wx:else>
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </block>
+  </view>
+</view> -->
+
+<!-- <view class="page-body">
+   
+      <view class="btn-area">
+      <button type="primary" bindtap="GotoPhoto">防伪标识辨别</button>
+      </view>
+      
+     </view> -->
+<!-- 用户信息
+  <view>
+  
+  <view wx:if="{{gender==0}}">性别：不确定</view>
+  <view wx:if="{{gender==1}}">性别：男</view>
+  <view wx:if="{{gender==2}}">性别：女</view>
+  </view>
+  <view>
+  <text>位置：{{userInfo.country}}</text>
+  <text>{{userInfo.province}}</text>
+  <text>{{userInfo.city}}</text>
+  </view> -->
+
+  
+
+
