@@ -46,6 +46,7 @@ Page({
       quality: 'high',
       success: (res) => {
         path = res.tempImagePath;
+        console.log(path);
         that.setData({
           src: res.tempImagePath
         })
